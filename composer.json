@@ -1,0 +1,20 @@
+{
+	"name": "gbiorczyk/wordpress-framework",
+	"description": "WordPress Framework",
+	"version": "1.7.3",
+	"license": "All rights reserved",
+	"authors": [
+		{
+			"name": "Mateusz Gbiorczyk",
+			"email": "mateusz@gbiorczyk.pl",
+			"homepage": "https://gbiorczyk.pl/"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Framework\\": "src"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}

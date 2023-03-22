@@ -1,0 +1,2 @@
+Copyright © 2018-2021 Mateusz Gbiorczyk <mateusz@gbiorczyk.pl>
+All rights reserved.

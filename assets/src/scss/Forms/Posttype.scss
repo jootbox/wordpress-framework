@@ -1,0 +1,143 @@
+body.post-type-wpf-contact-forms {
+
+	.acf-field[data-name="fields"],
+	.acf-field[data-name="mail_list"],
+	.acf-field[data-name="conditions"] {
+
+		.acf-field {
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+
+		.acf-fields {
+
+			.description {
+				font-size: 12px;
+				line-height: 1.3;
+			}
+		}
+	}
+
+	.acf-field[data-name="fields"],
+	.acf-field[data-name="mail_list"] {
+
+		.acf-field .acf-label,
+		.acf-field:before {
+			width: 25% !important;
+		}
+
+		.acf-field .acf-input {
+			width: 75% !important;
+		}
+	}
+
+	.acf-field[data-name="fields"] {
+
+		> .acf-input > .acf-repeater > .acf-table > tbody > .acf-row > .acf-fields {
+
+			@media only screen and (min-width: 1600px) {
+
+				> .acf-field:nth-child(1) .acf-label,
+				> .acf-field:nth-child(2) .acf-label,
+				> .acf-field:nth-child(1):before,
+				> .acf-field:nth-child(2):before {
+					width: 50% !important;
+				}
+
+				> .acf-field:nth-child(1) .acf-input,
+				> .acf-field:nth-child(2) .acf-input {
+					width: 50% !important;
+				}
+
+				> .acf-field:nth-child(1),
+				> .acf-field:nth-child(2) {
+					float: left;
+					width: 50%;
+					clear: initial;
+				}
+
+				> .acf-field:nth-child(1) {
+					position: absolute;
+					top: 0;
+					left: 0;
+					height: 100%;
+				}
+
+				> .acf-field:nth-child(2) {
+					margin-left: 50%;
+					border-left: 1px solid #e1e1e1;
+				}
+			}
+		}
+	}
+
+	.acf-field[data-name^="messages"] {
+
+		.acf-required {
+			float: left;
+			margin-right: 10px;
+		}
+	}
+
+	.acf-field[data-type="message"] {
+
+		.acf-input {
+
+			strong {
+				display: inline-block;
+				margin: 5px;
+				padding: 5px 15px;
+				color: #ffffff;
+				background-color: #0073aa;
+
+				&::selection {
+					color: #444444;
+					background-color: #ffffff;
+				}
+			}
+		}
+	}
+
+	.acf-field[data-name="validate_file_extensions"] {
+
+		ul {
+			overflow: hidden;
+
+			li {
+				float: left;
+				width: 12.5%;
+				min-width: 100px;
+
+				&:first-child {
+					width: 100%;
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+
+	.acf-field[data-name="agreement_html"] {
+
+		.acf-editor-wrap {
+
+			iframe {
+				height: 150px !important;
+				min-height: 150px;
+			}
+		}
+	}
+
+	.acf-field[data-name="template"] {
+
+		textarea {
+			height: 550px;
+		}
+	}
+
+	.acf-field[data-name="message"] {
+
+		textarea {
+			height: 220px;
+		}
+	}
+}

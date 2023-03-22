@@ -1,0 +1,14 @@
+#submitdiv {
+
+	&.sticky {
+		position: fixed;
+		top: 52px;
+		width: 280px;
+		z-index: 1000;
+
+		@media (max-width: 850px) {
+			position: relative;
+			top: auto;
+		}
+	}
+}

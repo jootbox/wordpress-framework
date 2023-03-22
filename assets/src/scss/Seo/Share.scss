@@ -1,0 +1,14 @@
+.acf-field[data-name="wpf_seo_share"] {
+	padding: 0 !important;
+
+	& > .acf-label {
+		display: none;
+	}
+
+	& > .acf-input {
+
+		& > .acf-fields {
+			border: 0;
+		}
+	}
+}

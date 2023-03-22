@@ -1,0 +1,37 @@
+/* ---
+  Fields
+--- */
+
+.acf-table tr.acf-field > td.acf-label,
+#acf-field-group-fields .li-field-order,
+.acf-fields.-left > .acf-field > .acf-label,
+.acf-fields.-left > .acf-field:before {
+	width: 15% !important;
+}
+
+.acf-fields.-left > .acf-field > .acf-input {
+	width: 85% !important;
+}
+
+.acf-flexible-hidden {
+	display: none;
+}
+
+.acf-field[data-key^="wpf_field_"] {
+	background-color: rgba(0, 0, 0, .025);
+}
+
+/* ---
+  Popup
+--- */
+
+.acf-fc-popup {
+	width: 400px;
+	max-width: 50vw;
+}
+
+.acf-fc-popup li {
+	float: left !important;
+	width: 50%;
+	min-width: 200px;
+}

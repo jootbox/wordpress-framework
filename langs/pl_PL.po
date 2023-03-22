@@ -1,0 +1,1474 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Framework\n"
+"POT-Creation-Date: 2021-09-02 14:23+0200\n"
+"PO-Revision-Date: 2021-09-02 14:23+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: src/Helpers/Breadcrumbs.php\n"
+
+#: src/Acf/Link.php:49 src/Admin/Menu.php:49
+msgid "Archive"
+msgstr "Archiwum"
+
+#: src/Acf/Wysiwyg.php:18
+msgid "Limit height of TinyMCE?"
+msgstr "Ograniczyć wysokość TinyMCE?"
+
+#: src/Admin/Footer.php:17
+#, php-format
+msgid "%sThis site is built using %sWordPress Framework%s (v%s)."
+msgstr ""
+"%sTa strona została zbudowana wykorzystując %sWordPress Framework%s (v%s)."
+
+#: src/Admin/Shortcuts.php:18
+msgid "Quick access"
+msgstr "Szybki dostęp"
+
+#: src/Admin/Shortcuts.php:63
+msgid "Menu"
+msgstr ""
+
+#: src/Admin/Shortcuts.php:78
+msgid "Theme translation"
+msgstr "Tłumaczenie motywu"
+
+#: src/Cache/Widget.php:28
+msgid "Cache management"
+msgstr "Zarządzanie cache"
+
+#: src/Cache/Widget.php:50
+#, php-format
+msgid "Clear cache (%d)"
+msgstr "Wyczyść pamięć cache (%d)"
+
+#: src/Duplicator/Actions.php:27
+msgid "Duplicate"
+msgstr "Powiel"
+
+#: src/Duplicator/Actions.php:60
+msgid "Duplicate as new draft"
+msgstr "Powiel jako nowy szkic"
+
+#: src/Duplicator/Duplicate.php:38
+msgid "An unexpected error occurred!"
+msgstr "Wystąpił nieznany błąd!"
+
+#: src/Forms/Optionspage.php:19 src/Forms/Posttype.php:21
+#: src/Forms/Posttype.php:22 src/Options/Forms.php:23 src/Options/Forms.php:81
+msgid "Contact Forms"
+msgstr "Formularze"
+
+#: src/Forms/Posttype.php:23
+msgid "Contact Form"
+msgstr "Formularz kontaktowy"
+
+#: src/Forms/Posttype.php:24
+msgid "Add new form"
+msgstr "Dodaj nowy formularz"
+
+#: src/Manage/Defaults.php:65
+#, php-format
+msgid "Filter by \"%s\""
+msgstr "Filtruj wg \"%s\""
+
+#: src/Options/Duplicator.php:22 src/Options/Page.php:25
+msgid "Duplicator"
+msgstr "Duplikator"
+
+#: src/Options/Duplicator.php:26 src/Options/Share.php:74
+msgid "Post types"
+msgstr "Typy postów"
+
+#: src/Options/Duplicator.php:29
+msgid ""
+"(list of Post Types for which will be given to possibility of post cloning)"
+msgstr ""
+"(lista typów postów, dla których powinna być możliwość klonowania postów)"
+
+#: src/Options/Forms.php:27 src/Options/Forms.php:135
+msgid "reCAPTCHA"
+msgstr ""
+
+#: src/Options/Forms.php:33
+msgid "Site key"
+msgstr "Klucz witryny"
+
+#: src/Options/Forms.php:36 src/Options/Forms.php:44
+msgid ""
+"(get from website: <a href=\"https://www.google.com/recaptcha/\" target="
+"\"_blank\">google.com/recaptcha</a>; use reCAPTCHA v2)"
+msgstr ""
+"(pobierz ze strony: <a href=\"https://www.google.com/recaptcha/\" target="
+"\"_blank\">google.com/recaptcha</a>; użyj reCAPTCHA v2)"
+
+#: src/Options/Forms.php:41
+msgid "Secret"
+msgstr "Tajny klucz"
+
+#: src/Options/Forms.php:85
+msgid "Allowed shortcodes"
+msgstr "Dozwolone shortcody"
+
+#: src/Options/Forms.php:87
+msgid "Loading..."
+msgstr "Ładowanie..."
+
+#: src/Options/Forms.php:91
+msgid "Fields"
+msgstr "Pola"
+
+#: src/Options/Forms.php:106 src/Options/Forms.php:260
+#: src/Options/Forms.php:1095 src/Options/Roles.php:32 src/Options/Roles.php:63
+#: src/Options/Roles.php:162 src/Options/Roles.php:260
+#: src/Posttype/Labels.php:24
+msgid "List"
+msgstr "Lista"
+
+#: src/Options/Forms.php:113
+msgid "Add field"
+msgstr "Dodaj pole"
+
+#: src/Options/Forms.php:117 src/Options/Forms.php:1179
+msgid "Type"
+msgstr "Typ"
+
+#: src/Options/Forms.php:122
+msgid "Text"
+msgstr "Tekst"
+
+#: src/Options/Forms.php:123
+msgid "E-mail"
+msgstr "E-mail"
+
+#: src/Options/Forms.php:124
+msgid "Url"
+msgstr "Link"
+
+#: src/Options/Forms.php:125
+msgid "Telephone"
+msgstr "Numer telefonu"
+
+#: src/Options/Forms.php:126
+msgid "Number"
+msgstr "Liczba"
+
+#: src/Options/Forms.php:127 src/Tools/Stats.php:144
+msgid "Date"
+msgstr "Data"
+
+#: src/Options/Forms.php:128 src/Options/Phpmailer.php:53
+msgid "Password"
+msgstr "Hasło"
+
+#: src/Options/Forms.php:129
+msgid "Textarea"
+msgstr "Obszar tekstowy"
+
+#: src/Options/Forms.php:130
+msgid "Select"
+msgstr "Lista wyboru"
+
+#: src/Options/Forms.php:131
+msgid "Multiselect"
+msgstr "Lista wielokrotnego wyboru"
+
+#: src/Options/Forms.php:132
+msgid "Checkbox"
+msgstr "Wybór (checkbox)"
+
+#: src/Options/Forms.php:133
+msgid "Radio"
+msgstr "Opcja (radio)"
+
+#: src/Options/Forms.php:134 src/Options/Forms.php:1185
+#: src/Options/Forms.php:1211
+msgid "File"
+msgstr "Plik"
+
+#: src/Options/Forms.php:136
+msgid "Agreement"
+msgstr "Zgoda"
+
+#: src/Options/Forms.php:137
+msgid "Hidden"
+msgstr "Ukryte"
+
+#: src/Options/Forms.php:147 src/Options/Forms.php:1418
+msgid "Name"
+msgstr "Nazwa"
+
+#: src/Options/Forms.php:150 src/Options/Roles.php:45
+msgid "(use only lowercase letters and underscores)"
+msgstr "(używaj jedynie małych liter oraz znaków podkreślenia)"
+
+#: src/Options/Forms.php:155
+msgid "Is grouped options?"
+msgstr "Grupowanie opcji?"
+
+#: src/Options/Forms.php:178
+msgid "Different labels than values?"
+msgstr "Inne etykiety niż wartości?"
+
+#: src/Options/Forms.php:182
+#, php-format
+msgid "(to show label instead of value use %s[{field_name}__label]%s)"
+msgstr ""
+"(aby wyświetlić etykietę zamiast wartości użyj %s[{field_name}__label]%s)"
+
+#: src/Options/Forms.php:212
+msgid "Values"
+msgstr "Wartości"
+
+#: src/Options/Forms.php:249 src/Options/Forms.php:276
+msgid "Add value"
+msgstr "Dodaj wartość"
+
+#: src/Options/Forms.php:253 src/Options/Forms.php:280
+#: src/Options/Forms.php:1488
+msgid "Value"
+msgstr "Wartość"
+
+#: src/Options/Forms.php:287 src/Options/Forms.php:326
+msgid "Label"
+msgstr "Etykieta"
+
+#: src/Options/Forms.php:291 src/Options/Forms.php:330
+#: src/Options/Integration.php:98 src/Options/Integration.php:161
+#: src/Options/Integration.php:176 src/Options/Integration.php:183
+msgid "(optionally)"
+msgstr "(opcjonalnie)"
+
+#: src/Options/Forms.php:382
+msgid "Default values"
+msgstr "Domyślne wartości"
+
+#: src/Options/Forms.php:385
+msgid "(separate each value with | char)"
+msgstr "(oddziel każdą wartość znakiem |)"
+
+#: src/Options/Forms.php:419
+msgid "Default value"
+msgstr "Domyślna wartość"
+
+#: src/Options/Forms.php:434
+msgid "Minimum value"
+msgstr "Minimalna wartość"
+
+#: src/Options/Forms.php:449
+msgid "Maximum value"
+msgstr "Maksymalna wartość"
+
+#: src/Options/Forms.php:464
+msgid "Step value"
+msgstr "Wartość kroku"
+
+#: src/Options/Forms.php:484
+msgid "Date format"
+msgstr "Format daty"
+
+#: src/Options/Forms.php:488
+#, php-format
+msgid ""
+"(examples of patterns:%s %syyyy-MM-dd%s (2019-04-30)%s %sHH:mm%s (21:45)%s "
+"%syyyy-MM-dd HH:mm%s (2019-04-30 21:45)%s %syyyy-MM-dd hh:mm a%s (2019-04-30 "
+"09:45 PM)"
+msgstr ""
+"(przykłady formatów:%s %syyyy-MM-dd%s (2019-04-30)%s %sHH:mm%s (21:45)%s "
+"%syyyy-MM-dd HH:mm%s (2019-04-30 21:45)%s %syyyy-MM-dd hh:mm a%s (2019-04-30 "
+"09:45 PM)"
+
+#: src/Options/Forms.php:515
+msgid "Date minimum"
+msgstr "Data minimalna"
+
+#: src/Options/Forms.php:518 src/Options/Forms.php:534
+msgid ""
+"(optionally; name of field in which user selects date or date as string)"
+msgstr ""
+"(opcjonalnie; nazwa pola, w którym użytkownik wybiera datę lub data jako "
+"ciąg znaków)"
+
+#: src/Options/Forms.php:531
+msgid "Date maximum"
+msgstr "Data maksymalna"
+
+#: src/Options/Forms.php:547
+msgid "First empty option?"
+msgstr "Pierwsza opcja pusta?"
+
+#: src/Options/Forms.php:563
+msgid "Content of consent"
+msgstr "Treść zgody"
+
+#: src/Options/Forms.php:580
+msgid "Additional expanded content?"
+msgstr "Dodatkowa rozszerzona treść?"
+
+#: src/Options/Forms.php:595
+msgid "Expanded content"
+msgstr "Rozszerzona treść"
+
+#: src/Options/Forms.php:599
+#, php-format
+msgid "(displayed in %sdata-expanded%s attribute in label)"
+msgstr "(wyświetlane w atrybucie %sdata-expanded%s w tagu label)"
+
+#: src/Options/Forms.php:617
+msgid "Placeholder"
+msgstr "Tekst zastępczy"
+
+#: src/Options/Forms.php:693
+msgid "Custom classes"
+msgstr "Własne klasy"
+
+#: src/Options/Forms.php:696
+msgid "(separate each class with a space)"
+msgstr "(oddziel każdą klasę znakiem spacji)"
+
+#: src/Options/Forms.php:709
+msgid "Is required?"
+msgstr "Wartość wymagana?"
+
+#: src/Options/Forms.php:730
+msgid "Minimum length"
+msgstr "Minimalna długość"
+
+#: src/Options/Forms.php:761
+msgid "Maximum length"
+msgstr "Maksymalna długość"
+
+#: src/Options/Forms.php:792
+msgid "Multiple files?"
+msgstr "Możliwość wyboru wielu plików?"
+
+#: src/Options/Forms.php:808
+msgid "File max size"
+msgstr "Maksymalny rozmiar pliku"
+
+#: src/Options/Forms.php:811
+msgid "(value in KB)"
+msgstr "(wartość w KB)"
+
+#: src/Options/Forms.php:826
+msgid "File extensions"
+msgstr "Rozszerzenia plików"
+
+#: src/Options/Forms.php:884
+msgid "Regex"
+msgstr "Wyrażenie regularne"
+
+#: src/Options/Forms.php:887
+msgid "(e.g. <strong>^([0-9]+)$</strong>)"
+msgstr "(np. <strong>^([0-9]+)$</strong>)"
+
+#: src/Options/Forms.php:935
+msgid "Error message"
+msgstr "Komunikat błędu"
+
+#: src/Options/Forms.php:938
+msgid "(for regex error)"
+msgstr "(w przypadku błędu Regex)"
+
+#: src/Options/Forms.php:1016
+msgid "Name of conditions collection to ignore field validation"
+msgstr "Nazwa kolekcji warunków w celu ignorowania walidacji pola"
+
+#: src/Options/Forms.php:1020 src/Options/Forms.php:1109
+#, php-format
+msgid "(optionally; unique collection name given in %sConditions%s tab)"
+msgstr "(opcjonalnie; unikalna nazwa kolekcji podana w zakładce %sWarunki%s)"
+
+#: src/Options/Forms.php:1042
+msgid "Form"
+msgstr "Formularz"
+
+#: src/Options/Forms.php:1049
+msgid "Submit"
+msgstr "Wyślij"
+
+#: src/Options/Forms.php:1051
+msgid ""
+"Enter <strong>[submit_error]</strong> tag where you want to show error "
+"message when sending the form and <strong>[submit_success]</strong> for "
+"success message.\n"
+"Add anywhere button to send form (you can use <strong>input</strong> or "
+"<strong>button</strong>).\n"
+"Add code <strong>v-hide=&#34;[condition=name]&#34;</strong> to any container "
+"to hide its contents <em>(instead of \"name\" enter unique collection name "
+"given in \"Conditions\" tab)</em>."
+msgstr ""
+"Dodaj shortcode <strong>[submit_error]</strong> w miejscu, w którym chcesz "
+"wyświetlić komunikat o błędzie przy wysyłce formularza oraz "
+"<strong>[submit_success]</strong> dla komunikatu o pomyślnym wysłaniu.\n"
+"Dodaj w dowolnym miejscu przycisk do wysyłania formularza (możesz użyć "
+"<strong>input</strong> lub <strong>button</strong>).\n"
+"Dodaj kod <strong>v-hide=&#34;[condition=name]&#34;</strong> wewnątrz tagu "
+"kontenera w celu ukrycia jego zawartości <em>(zamiast \"name\" podaj "
+"unikalną nazwę kolekcji podaną w zakładce \"Warunki\")</em>."
+
+#: src/Options/Forms.php:1057
+msgid "Template"
+msgstr "Struktura"
+
+#: src/Options/Forms.php:1060
+msgid ""
+"<label>\n"
+"  <span>Your name</span>\n"
+"  [name]\n"
+"</label>\n"
+"\n"
+"<label>\n"
+"  <span>Your e-mail</span>\n"
+"  [email]\n"
+"</label>\n"
+"\n"
+"<label>\n"
+"  <span>Subject</span>\n"
+"  [subject]\n"
+"</label>\n"
+"\n"
+"<label>\n"
+"  <span>Message</span>\n"
+"  [message]\n"
+"</label>\n"
+"\n"
+"<button type=\"submit\">Submit</button>\n"
+"[submit_error]\n"
+"[submit_success]"
+msgstr ""
+"<label>\n"
+"  <span>Twoje imię</span>\n"
+"  [name]\n"
+"</label>\n"
+"\n"
+"<label>\n"
+"  <span>Twój adres e-mail</span>\n"
+"  [email]\n"
+"</label>\n"
+"\n"
+"<label>\n"
+"  <span>Temat</span>\n"
+"  [subject]\n"
+"</label>\n"
+"\n"
+"<label>\n"
+"  <span>Wiadomość</span>\n"
+"  [message]\n"
+"</label>\n"
+"\n"
+"<button type=\"submit\">Wyślij</button>\n"
+"[submit_error]\n"
+"[submit_success]"
+
+#: src/Options/Forms.php:1064
+msgid "Input error class"
+msgstr "Klasa pola z komunikatem o błędzie pola"
+
+#: src/Options/Forms.php:1070
+msgid "Submit error class"
+msgstr "Klasa pola z komunikatem o błędzie przy wysyłce"
+
+#: src/Options/Forms.php:1076
+msgid "Submit success class"
+msgstr "Klasa pola z komunikatem o sukcesie przy wysyłce"
+
+#: src/Options/Forms.php:1082
+msgid "Disable clearing form after sending?"
+msgstr "Wyłączyć czyszczenie formularza po wysłaniu?"
+
+#: src/Options/Forms.php:1088
+msgid "Mail"
+msgstr "E-mail"
+
+#: src/Options/Forms.php:1101
+msgid "Add mail"
+msgstr "Dodaj e-mail"
+
+#: src/Options/Forms.php:1105
+msgid "Name of conditions collection to use current template"
+msgstr "Nazwa kolekcji warunków w celu użycia danego szablonu"
+
+#: src/Options/Forms.php:1124
+msgid "To"
+msgstr "Adresat"
+
+#: src/Options/Forms.php:1132
+msgid "From"
+msgstr "Nadawca"
+
+#: src/Options/Forms.php:1140
+msgid "Subject"
+msgstr "Temat"
+
+#: src/Options/Forms.php:1144
+msgid "Message \"[subject]\""
+msgstr "Wiadomość \"[subject]\""
+
+#: src/Options/Forms.php:1148
+msgid "Additional headers"
+msgstr "Dodatkowe nagłówki"
+
+#: src/Options/Forms.php:1155
+msgid "Message"
+msgstr "Wiadomość"
+
+#: src/Options/Forms.php:1158
+msgid "(you can use HTML tags, e.q. strong)"
+msgstr "(dozwolone jest użycie tagów HTML, np. strong)"
+
+#: src/Options/Forms.php:1159
+msgid ""
+"From: [name] <[email]>\n"
+"Message:\n"
+"[message]\n"
+"\n"
+"--\n"
+"\n"
+"This message was sent automatically using the form on website %site_name% "
+"(%site_url%)."
+msgstr ""
+"Nadawca: [name] <[email]>\n"
+"Wiadomość:\n"
+"[message]\n"
+"\n"
+"--\n"
+"\n"
+"Ta wiadomość została wysłana automatycznie przy użyciu formularza na stronie "
+"%site_name% (%site_url%)."
+
+#: src/Options/Forms.php:1163
+msgid "Format as HTML?"
+msgstr "Formatuj jako HTML?"
+
+#: src/Options/Forms.php:1169
+msgid "Attachments"
+msgstr "Załączniki"
+
+#: src/Options/Forms.php:1175
+msgid "Add attachment"
+msgstr "Dodaj załącznik"
+
+#: src/Options/Forms.php:1184
+msgid "Value of field"
+msgstr "Wartość pola"
+
+#: src/Options/Forms.php:1190 src/Options/Forms.php:1459
+msgid "Field name"
+msgstr "Nazwa pola"
+
+#: src/Options/Forms.php:1194 src/Options/Forms.php:1463
+#, php-format
+msgid "(field name given in %sFields%s tab)"
+msgstr "(nazwa pola podana w zakładce %sPola%s)"
+
+#: src/Options/Forms.php:1231
+msgid "Messages"
+msgstr "Wiadomości"
+
+#: src/Options/Forms.php:1238
+msgid "Send success"
+msgstr "Wiadomość została wysłana"
+
+#: src/Options/Forms.php:1242
+msgid "Thank you for your message. It has been sent."
+msgstr "Twoja wiadomość została wysłana. Dziękujemy!"
+
+#: src/Options/Forms.php:1246
+msgid "Send error"
+msgstr "Wiadomość nie została wysłana"
+
+#: src/Options/Forms.php:1250
+msgid "The error occurred while sending your message. Please try again later."
+msgstr ""
+"Wystąpił problem z wysłaniem Twojej wiadomości. Spróbuj ponownie później."
+
+#: src/Options/Forms.php:1254
+msgid "Send validate field"
+msgstr "Błąd walidacji przy wysyłaniu"
+
+#: src/Options/Forms.php:1257 src/Options/Forms.php:1282
+#: src/Options/Forms.php:1291 src/Options/Forms.php:1324
+#: src/Options/Forms.php:1333 src/Options/Forms.php:1342
+#: src/Options/Forms.php:1351 src/Options/Forms.php:1360
+#: src/Options/Forms.php:1369 src/Options/Forms.php:1386
+#, php-format
+msgid "(use <strong>%s</strong> for show dynamic value)"
+msgstr "(użyj <strong>%s</strong>, aby pokazać dynamiczne wartości)"
+
+#: src/Options/Forms.php:1259
+#, php-format
+msgid ""
+"The error occurred while validating \"%s\" field. Enter the value again and "
+"try submit form."
+msgstr ""
+"Wystąpił problem podczas walidacji pola %s. Uzupełnij je ponownie i wyślij "
+"formularz."
+
+#: src/Options/Forms.php:1263
+msgid "Validation error"
+msgstr "Błąd walidacji"
+
+#: src/Options/Forms.php:1267
+msgid "One or more fields have an error. Please check and try again."
+msgstr ""
+"Przynajmniej jedno pole jest błędnie wypełnione. Sprawdź wpisaną treść i "
+"spróbuj ponownie."
+
+#: src/Options/Forms.php:1271
+msgid "Required field"
+msgstr "Pole wymagane"
+
+#: src/Options/Forms.php:1275
+msgid "This field is required."
+msgstr "To pole jest wymagane."
+
+#: src/Options/Forms.php:1279
+msgid "Minimum field length"
+msgstr "Minimalna długość pola"
+
+#: src/Options/Forms.php:1284
+#, php-format
+msgid "This field must be at least %s characters."
+msgstr "Pole może powinno zawierać co najmniej %s znaków."
+
+#: src/Options/Forms.php:1288
+msgid "Maximum field length"
+msgstr "Maksymalna długość pola"
+
+#: src/Options/Forms.php:1293
+#, php-format
+msgid "This field must be at maximum %s characters."
+msgstr "Pole może zawierać maksymalnie %s znaków."
+
+#: src/Options/Forms.php:1297
+msgid "Invalid e-mail"
+msgstr "Nieprawidłowy e-mail"
+
+#: src/Options/Forms.php:1301
+msgid "E-mail address is invalid."
+msgstr "Adres e-mail jest nieprawidłowy."
+
+#: src/Options/Forms.php:1305
+msgid "Incorrect URL"
+msgstr "Nieprawidłowy URL"
+
+#: src/Options/Forms.php:1309
+msgid "URL is incorrect."
+msgstr "Adres URL jest nieprawidłowy."
+
+#: src/Options/Forms.php:1313
+msgid "Incorrect number"
+msgstr "Nieprawidłowa liczba"
+
+#: src/Options/Forms.php:1317
+msgid "This value must be number."
+msgstr "Ta wartość musi być liczbą."
+
+#: src/Options/Forms.php:1321
+msgid "Too small number value"
+msgstr "Za mała liczba"
+
+#: src/Options/Forms.php:1326
+#, php-format
+msgid "This field value must be %s or more."
+msgstr "Wartość pola musi być większa lub równa %s."
+
+#: src/Options/Forms.php:1330
+msgid "Too large number value"
+msgstr "Za duża liczba"
+
+#: src/Options/Forms.php:1335
+#, php-format
+msgid "This field value must be %s or less."
+msgstr "Wartość pola musi być mniejsza lub równa %s."
+
+#: src/Options/Forms.php:1339
+msgid "Invalid step in number"
+msgstr "Nieprawidłowa wartość kroku"
+
+#: src/Options/Forms.php:1344
+#, php-format
+msgid "Step value is %s from minimum value."
+msgstr "Wartość musi być podzielna przez %s, licząc od wartości minimalnej."
+
+#: src/Options/Forms.php:1348
+msgid "Invalid date format"
+msgstr "Nieprawidłowy format daty"
+
+#: src/Options/Forms.php:1353
+#, php-format
+msgid "Date must be in format %s."
+msgstr "Dozwolony format daty to %s."
+
+#: src/Options/Forms.php:1357
+msgid "Too early date in range"
+msgstr "Za wczesna data w zakresie"
+
+#: src/Options/Forms.php:1362
+#, php-format
+msgid "Date can not be later than %s."
+msgstr "Data nie może być późniejsza niż %s."
+
+#: src/Options/Forms.php:1366
+msgid "Too late date in range"
+msgstr "Za późna data w zakresie"
+
+#: src/Options/Forms.php:1371
+#, php-format
+msgid "Date can not be earlier than %s."
+msgstr "Data nie może być wcześniejsza niż %s."
+
+#: src/Options/Forms.php:1375
+msgid "Invalid file extension"
+msgstr "Nieprawidłowe rozszerzenie pliku"
+
+#: src/Options/Forms.php:1379
+msgid "Extension of file is invalid."
+msgstr "Rozszerzenie pliku jest nieprawidłowe."
+
+#: src/Options/Forms.php:1383
+msgid "Too large file size"
+msgstr "Zbyt duży rozmiar pliku"
+
+#: src/Options/Forms.php:1388
+#, php-format
+msgid "Size of file is larger than allowed %sKB."
+msgstr "Rozmiar pliku jest większy niż dozwolone %sKB."
+
+#: src/Options/Forms.php:1392
+msgid "Regex error"
+msgstr "Błąd wyrażenia regularnego"
+
+#: src/Options/Forms.php:1396
+msgid "Field value is invalid."
+msgstr "Wartość pola jest nieprawidłowa."
+
+#: src/Options/Forms.php:1400 src/Options/Forms.php:1449
+msgid "Conditions"
+msgstr "Warunki"
+
+#: src/Options/Forms.php:1407
+msgid "Collections of conditions"
+msgstr "Kolekcje warunków"
+
+#: src/Options/Forms.php:1410
+msgid "(list of collections used for validation)"
+msgstr "(lista kolekcji używana do walidacji)"
+
+#: src/Options/Forms.php:1414
+msgid "Add collection"
+msgstr "Dodaj kolekcję"
+
+#: src/Options/Forms.php:1421
+msgid "(enter unique name, use only lowercase letters and underscores)"
+msgstr ""
+"(podaj unikalną nazwę, używaj jedynie małych liter oraz znaków podkreślenia)"
+
+#: src/Options/Forms.php:1426
+msgid "Groups of conditions"
+msgstr "Grupy warunków"
+
+#: src/Options/Forms.php:1429
+msgid "(all groups must be satisfied)"
+msgstr "(wszystkie grupy muszą być spełnione)"
+
+#: src/Options/Forms.php:1433
+msgid "Add group"
+msgstr "Dodaj grupę"
+
+#: src/Options/Forms.php:1437
+msgid "Relation"
+msgstr "Relacja"
+
+#: src/Options/Forms.php:1440
+msgid "(logical relationship between each items of list)"
+msgstr "(logiczna relacja pomiędzy elementami listy)"
+
+#: src/Options/Forms.php:1443
+msgid "All satisfies condition"
+msgstr "Wszystkie spełniają warunek"
+
+#: src/Options/Forms.php:1444
+msgid "At least one satisfies condition"
+msgstr "Co najmniej jeden spełnia warunek"
+
+#: src/Options/Forms.php:1455
+msgid "Add condition"
+msgstr "Dodaj warunek"
+
+#: src/Options/Forms.php:1471
+msgid "Operator"
+msgstr "Operator"
+
+#: src/Options/Forms.php:1478
+msgid "< (for Number and Date)"
+msgstr "< (dla Liczba i Data)"
+
+#: src/Options/Forms.php:1479
+msgid "> (for Number and Date)"
+msgstr "> (dla Liczba i Data)"
+
+#: src/Options/Forms.php:1480
+msgid "contains (for Multiselect and Checkbox)"
+msgstr "zawiera (dla Multiselect i Checkbox)"
+
+#: src/Options/Forms.php:1481
+msgid "not contains (for Multiselect and Checkbox)"
+msgstr "nie zawiera (dla Multiselect i Checkbox)"
+
+#: src/Options/Forms.php:1482
+msgid "empty"
+msgstr "puste"
+
+#: src/Options/Forms.php:1483
+msgid "not empty"
+msgstr "wypełnione"
+
+#: src/Options/Integration.php:22 src/Options/Phpmailer.php:22
+#: src/Options/Phpmailer.php:32 src/Options/Roles.php:270
+#: src/Options/Share.php:23 src/Options/Share.php:272
+#: src/Options/Sitemap.php:22 src/Options/Translations.php:44
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: src/Options/Integration.php:26 src/Options/Phpmailer.php:26
+#: src/Options/Share.php:27 src/Options/Sitemap.php:26
+msgid "Module active?"
+msgstr "Moduł aktywny?"
+
+#: src/Options/Integration.php:32
+msgid "Analytics"
+msgstr "Śledzenie"
+
+#: src/Options/Integration.php:47
+msgid "Google Analytics UA code"
+msgstr "Kod Google Analytics UA"
+
+#: src/Options/Integration.php:50
+msgid "(optionally; allowed value format: UA-000000-0)"
+msgstr "(opcjonalnie; dozwolony format wartości: UA-000000-0)"
+
+#: src/Options/Integration.php:63
+msgid "Google Tag Manager GTM code"
+msgstr "Kod Google Tag Manager GTM"
+
+#: src/Options/Integration.php:66
+msgid "(optionally; allowed value format: GTM-XXXXXX)"
+msgstr "(opcjonalnie; dozwolony format wartości: GTM-XXXXXX)"
+
+#: src/Options/Integration.php:79
+msgid "Facebook Pixel ID"
+msgstr ""
+
+#: src/Options/Integration.php:82
+msgid "(optionally; allowed value format: 000000000000000)"
+msgstr "(opcjonalnie; dozwolony format wartości: 000000000000000)"
+
+#: src/Options/Integration.php:95
+msgid "Hotjar"
+msgstr ""
+
+#: src/Options/Integration.php:103
+msgid "Hotjar ID"
+msgstr ""
+
+#: src/Options/Integration.php:109
+msgid "Hotjar Snippet Version"
+msgstr ""
+
+#: src/Options/Integration.php:127
+msgid "Chat"
+msgstr "Czat"
+
+#: src/Options/Integration.php:142
+msgid "LiveChat license number"
+msgstr "Numer LiveChat license"
+
+#: src/Options/Integration.php:145
+msgid "(optionally; allowed value format: 00000000)"
+msgstr "(opcjonalnie; dozwolony format wartości: 00000000)"
+
+#: src/Options/Integration.php:158
+msgid "Facebook Customer Chat"
+msgstr ""
+
+#: src/Options/Integration.php:166
+msgid "Facebook Page ID"
+msgstr ""
+
+#: src/Options/Integration.php:169
+msgid ""
+"(allowed value format: 000000000000000; remember to add domain to white list "
+"in Facebook Page settings)"
+msgstr ""
+"(dozwolony format wartości: 000000000000000; pamiętaj, aby dodać domenę do "
+"białej listy w ustawieniach Facebook Page)"
+
+#: src/Options/Integration.php:173
+msgid "Theme color"
+msgstr "Kolor motywu"
+
+#: src/Options/Integration.php:180
+msgid "Greeting messages"
+msgstr "Wiadomości powitalne"
+
+#: src/Options/Integration.php:188
+msgid "Logged in users"
+msgstr "Użytkownicy zalogowani"
+
+#: src/Options/Integration.php:194
+msgid "Logged out users"
+msgstr "Użytkownicy niezalogowani"
+
+#: src/Options/Integration.php:202
+msgid "Hide by default?"
+msgstr "Czat ukryty domyślnie?"
+
+#: src/Options/Page.php:20
+msgid "WP Framework"
+msgstr ""
+
+#: src/Options/Page.php:24 src/Options/Redirects.php:22
+msgid "301 Redirects"
+msgstr "Przekierowania 301"
+
+#: src/Options/Page.php:26
+msgid "Integrations"
+msgstr "Integracje"
+
+#: src/Options/Page.php:27
+msgid "PHPMailer"
+msgstr "Ustawienia e-mail"
+
+#: src/Options/Page.php:28
+msgid "Sitemap"
+msgstr "Mapa witryny"
+
+#: src/Options/Page.php:29 src/Options/Share.php:268
+msgid "SEO settings"
+msgstr "Ustawienia SEO"
+
+#: src/Options/Page.php:30 src/Options/Translations.php:22
+msgid "Translations"
+msgstr "Tłumaczenia"
+
+#: src/Options/Page.php:31 src/Options/Roles.php:22 src/Options/Roles.php:26
+msgid "User roles"
+msgstr "Role użytkowników"
+
+#: src/Options/Page.php:54
+msgid "Docs"
+msgstr "Dokumentacja"
+
+#: src/Options/Phpmailer.php:39
+msgid "Host"
+msgstr ""
+
+#: src/Options/Phpmailer.php:46
+msgid "Username"
+msgstr "Nazwa użytkownika"
+
+#: src/Options/Phpmailer.php:60
+msgid "Secure"
+msgstr "Typ zabezpieczeń"
+
+#: src/Options/Phpmailer.php:64
+msgid "SSL"
+msgstr ""
+
+#: src/Options/Phpmailer.php:65
+msgid "TLS"
+msgstr ""
+
+#: src/Options/Phpmailer.php:71
+msgid "Port"
+msgstr ""
+
+#: src/Options/Phpmailer.php:80
+msgid "Debug level"
+msgstr "Poziom debugowania"
+
+#: src/Options/Phpmailer.php:84
+msgid "DEBUG_OFF"
+msgstr ""
+
+#: src/Options/Phpmailer.php:85
+msgid "DEBUG_CLIENT"
+msgstr ""
+
+#: src/Options/Phpmailer.php:86
+msgid "DEBUG_SERVER"
+msgstr ""
+
+#: src/Options/Phpmailer.php:87
+msgid "DEBUG_CONNECTION"
+msgstr ""
+
+#: src/Options/Phpmailer.php:88
+msgid "DEBUG_LOWLEVEL"
+msgstr ""
+
+#: src/Options/Redirects.php:26
+msgid "Append new paths"
+msgstr "Dodaj nowe ścieżki"
+
+#: src/Options/Redirects.php:29
+#, php-format
+msgid ""
+"(enter each link in new line; links will be sorted and added to list "
+"below)%sExample single line: %s"
+msgstr ""
+"(podaj każdy link w nowej linii; ścieżki będą sortowane i dodane do listy "
+"poniżej)%sPrzykładowa pojedyncza linia: %s"
+
+#: src/Options/Redirects.php:46
+msgid "Remove domain prefix"
+msgstr "Usuń prefix domeny"
+
+#: src/Options/Redirects.php:49
+#, php-format
+msgid "(example: %s - add if redirects are for one domain)"
+msgstr "(przykład: %s - dodaj jeżeli przekierowania dotyczą jednej domeny)"
+
+#: src/Options/Redirects.php:70
+msgid "Clear all redirects list?"
+msgstr "Usunąć całą listę przekierowań?"
+
+#: src/Options/Redirects.php:73
+#, php-format
+msgid "(this option will %sclear entire redirects list%s)"
+msgstr "(ta opcja spowoduje %susunięcie całej listy przekierowań%s)"
+
+#: src/Options/Redirects.php:90
+msgid "Save as CSV"
+msgstr "Zapisz jako CSV"
+
+#: src/Options/Redirects.php:105
+msgid "Redirects list"
+msgstr "Lista przekierowań"
+
+#: src/Options/Redirects.php:107
+msgid ""
+"(check Homepage after saving - if it does not work, it means that one of "
+"redirect contains forbidden chars)"
+msgstr ""
+"(sprawdź stronę główną po zapisaniu - jeżeli nie działa to oznacza, że jedno "
+"z przekierowań zawiera zabronione znaki)"
+
+#: src/Options/Redirects.php:110
+msgid "Add new redirect"
+msgstr "Dodaj nowe przekierowanie"
+
+#: src/Options/Redirects.php:114
+msgid "Old path"
+msgstr "Stara ścieżka"
+
+#: src/Options/Redirects.php:118 src/Options/Redirects.php:129
+#, php-format
+msgid "(examples: %s)"
+msgstr "(przykłady: %s)"
+
+#: src/Options/Redirects.php:124
+msgid "New path"
+msgstr "Nowa ścieżka"
+
+#: src/Options/Roles.php:38
+msgid "Add role"
+msgstr "Dodaj rolę"
+
+#: src/Options/Roles.php:42
+msgid "Role name"
+msgstr "Nazwa roli"
+
+#: src/Options/Roles.php:50
+msgid "Display name"
+msgstr "Wyświetlana nazwa"
+
+#: src/Options/Roles.php:57
+msgid "Post Types"
+msgstr "Typy treści"
+
+#: src/Options/Roles.php:69 src/Options/Share.php:95
+msgid "Add post type"
+msgstr "Dodaj typ treści"
+
+#: src/Options/Roles.php:73 src/Options/Share.php:99
+msgid "Post type"
+msgstr "Typ treści"
+
+#: src/Options/Roles.php:83 src/Options/Roles.php:113 src/Options/Roles.php:179
+#: src/Options/Roles.php:198 src/Options/Roles.php:228
+#: src/Options/Roles.php:247
+msgid "Capabilities"
+msgstr "Uprawnienia"
+
+#: src/Options/Roles.php:137
+msgid "Access only to selected posts"
+msgstr "Dostęp tylko do wybranych postów"
+
+#: src/Options/Roles.php:140
+msgid "(list of post IDs, separated by space)"
+msgstr "(lista ID postów, oddzielonych spacją)"
+
+#: src/Options/Roles.php:156 src/Options/Share.php:155
+msgid "Taxonomies"
+msgstr "Taksonomie"
+
+#: src/Options/Roles.php:168 src/Options/Share.php:176
+msgid "Add taxonomy"
+msgstr "Dodaj taksonomię"
+
+#: src/Options/Roles.php:172 src/Options/Share.php:180
+msgid "Taxonomy"
+msgstr "Taksonomia"
+
+#: src/Options/Roles.php:222
+msgid "Options Pages"
+msgstr ""
+
+#: src/Options/Roles.php:241
+msgid "Custom"
+msgstr "Własne"
+
+#: src/Options/Roles.php:254
+msgid "Languages"
+msgstr "Języki"
+
+#: src/Options/Roles.php:262
+msgid "(leave empty to give access to all)"
+msgstr "(pozostaw puste, aby dać dostęp do wszystkich)"
+
+#: src/Options/Roles.php:276
+msgid "Restore default roles?"
+msgstr "Przywrócić domyślne role?"
+
+#: src/Options/Roles.php:279
+msgid ""
+"(removes all user roles and restores defaults; also resets capabilities for "
+"all roles)"
+msgstr ""
+"(usuwa wszystkie role użytkowników i przywraca domyślnie; dodatkowo resetuje "
+"uprawnienia dla ról)"
+
+#: src/Options/Roles.php:284
+msgid "Remove others roles"
+msgstr "Usuń inne role"
+
+#: src/Options/Roles.php:287
+msgid ""
+"(deletes selected roles - administrator and subscriber role can not be "
+"removed)"
+msgstr ""
+"(usuwa wybrane role - role administrator i subscriber nie mogą być usunięte)"
+
+#: src/Options/Share.php:30
+msgid "(enable support for Open Graph meta tags)"
+msgstr "(włącz wsparcie dla meta tagów Open Graph)"
+
+#: src/Options/Share.php:34
+msgid "Default"
+msgstr "Domyślne"
+
+#: src/Options/Share.php:49
+msgid "Default settings"
+msgstr "Domyślne ustawienia"
+
+#: src/Options/Share.php:56 src/Options/Share.php:137 src/Options/Share.php:218
+#: src/Options/Share.php:310
+msgid "Image"
+msgstr "Zdjęcie"
+
+#: src/Options/Share.php:59
+msgid ""
+"(unique image representing content of page; recommended image size is 1200 x "
+"630px)"
+msgstr ""
+"(unikalne zdjęcie reprezentujące treść na stronie; rekomendowany rozmiar "
+"obrazka to 1200 x 630px)"
+
+#: src/Options/Share.php:89 src/Options/Share.php:170
+msgid "Archives"
+msgstr "Archiwa"
+
+#: src/Options/Share.php:92
+msgid "(custom settings for archive pages of selected post types)"
+msgstr "(własne ustawienia dla stron archiwum wybranych typów postów)"
+
+#: src/Options/Share.php:105 src/Options/Share.php:186
+#: src/Options/Share.php:278
+msgid "Title"
+msgstr "Tytuł"
+
+#: src/Options/Share.php:108 src/Options/Share.php:189
+#: src/Options/Share.php:281
+msgid ""
+"(by default this is title of page; displayed when sharing page on social "
+"media)"
+msgstr ""
+"(domyślnie jest to tytuł strony; wyświetlany podczas udostępniania strony w "
+"social media)"
+
+#: src/Options/Share.php:112 src/Options/Share.php:193
+#: src/Options/Share.php:285
+msgid "Replace page title?"
+msgstr "Zastąpić tytuł strony?"
+
+#: src/Options/Share.php:115
+msgid "(replace displayed page title)"
+msgstr "(zastępuje wyświetlany tytuł strony)"
+
+#: src/Options/Share.php:119 src/Options/Share.php:200
+#: src/Options/Share.php:292
+msgid "Description"
+msgstr "Opis"
+
+#: src/Options/Share.php:122 src/Options/Share.php:203
+#: src/Options/Share.php:295
+msgid ""
+"(description that concisely summarizes content; displayed when sharing page "
+"on social media)"
+msgstr ""
+"(tekst zwięźle opisujący treść strony; wyświetlany podczas udostępniania "
+"strony w social media)"
+
+#: src/Options/Share.php:128 src/Options/Share.php:209
+#: src/Options/Share.php:301
+msgid "Description for search engines"
+msgstr "Opis dla wyszukiwarek"
+
+#: src/Options/Share.php:131 src/Options/Share.php:212
+#: src/Options/Share.php:304
+msgid "(by default, this is description from field above)"
+msgstr "(domyślnie jest to opis z pola powyżej)"
+
+#: src/Options/Share.php:140 src/Options/Share.php:221
+#: src/Options/Share.php:313
+msgid ""
+"(unique image representing content of page; recommended image size is 1200 x "
+"630px; displayed when sharing page on social media)"
+msgstr ""
+"(unikalne zdjęcie reprezentujące treść na stronie; rekomendowany rozmiar "
+"obrazka to 1200 x 630px; wyświetlany podczas udostępniania strony w social "
+"media)"
+
+#: src/Options/Share.php:173
+msgid "(custom settings for archive pages of selected taxonomies)"
+msgstr "(własne ustawienia dla stron archiwum wybranych taksonomii)"
+
+#: src/Options/Share.php:196 src/Options/Share.php:288
+msgid "(replace displayed page title in search engine)"
+msgstr "(zastępuje tytuł strony w wyszukiwarkach)"
+
+#: src/Options/Sitemap.php:32
+msgid "Sitemap path"
+msgstr "Ścieżka mapy witryny"
+
+#: src/Options/Sitemap.php:50
+msgid "Posttypes in sitemap"
+msgstr "Typy postów w mapie witryny"
+
+#: src/Options/Sitemap.php:65
+msgid "Taxonomies in sitemap"
+msgstr "Taksonomie w mapie witryny"
+
+#: src/Options/Translations.php:26
+msgid "Helpers"
+msgstr "Funkcje pomocnicze"
+
+#: src/Options/Translations.php:32
+msgid "Search Results"
+msgstr "Wyniki wyszukiwania"
+
+#: src/Options/Translations.php:36 src/Options/Translations.php:54
+#: src/Options/Translations.php:66
+#, php-format
+msgid "Default value: %s%s%s"
+msgstr "Domyślna wartość: %s%s%s"
+
+#: src/Options/Translations.php:38
+msgid "Search results"
+msgstr "Wyniki wyszukiwania"
+
+#: src/Options/Translations.php:50
+msgid "Login page locked"
+msgstr "Zablokowana strona logowania"
+
+#: src/Options/Translations.php:56 src/Settings/Security.php:395
+#: src/Settings/Security.php:468
+msgid "This page is locked."
+msgstr "Ta strona jest zablokowana."
+
+#: src/Options/Translations.php:62
+msgid "Login error"
+msgstr "Błąd logowania"
+
+#: src/Options/Translations.php:68 src/Settings/Security.php:489
+#, php-format
+msgid "%sERROR%s: An error occured. Try again."
+msgstr "%sBŁĄD%s: Wystąpił nieznany błąd. Spróbuj ponownie."
+
+#: src/Polylang/Switcher/Admin.php:31
+msgid "Enable"
+msgstr "Włącz"
+
+#: src/Polylang/Switcher/Admin.php:31
+msgid "Disable"
+msgstr "Wyłącz"
+
+#: src/Posttype/Labels.php:19 src/Posttype/Labels.php:20
+#: src/Posttype/Labels.php:22
+msgid "Add new"
+msgstr "Dodaj"
+
+#: src/Posttype/Labels.php:21
+msgid "Edit"
+msgstr "Edytuj"
+
+#: src/Posttype/Labels.php:23
+msgid "View"
+msgstr "Zobacz"
+
+#: src/Posttype/Labels.php:25
+msgid "Search"
+msgstr "Szukaj"
+
+#: src/Posttype/Labels.php:26
+msgid "No items found."
+msgstr "Nie znaleziono żadnych elementów."
+
+#: src/Posttype/Labels.php:27
+msgid "No items found in Trash."
+msgstr "Nie znaleziono żadnych elementów w koszu."
+
+#: src/Redirects/Export.php:22
+msgid "Export redirect list"
+msgstr "Eksportuj listę przekierowań"
+
+#: src/Redirects/Export.php:29
+msgid "An error occurred while exporting."
+msgstr "Wystąpił nieznany błąd podczas eksportowania."
+
+#: src/Roles/Langs.php:65 src/Roles/Langs.php:79 src/Roles/Langs.php:101
+#, php-format
+msgid "Sorry, you are not allowed to perform this action. %s%sGo back.%s"
+msgstr ""
+"Przepraszamy, nie posiadasz uprawnień do wykonania tej akcji. %s%sPowrót.%s"
+
+#: src/Roles/Langs.php:92
+msgid "Sorry, you are not allowed to perform this action."
+msgstr "Przepraszamy, nie posiadasz uprawnień do wykonania tej akcji."
+
+#: src/Settings/Phpmailer.php:72
+msgid "Enter your e-mail"
+msgstr "Podaj adres e-mail"
+
+#: src/Settings/Phpmailer.php:76
+msgid "Test your settings"
+msgstr "Testuj Twoje ustawienia"
+
+#: src/Settings/Phpmailer.php:94 src/Settings/Phpmailer.php:96
+msgid "Test e-mail"
+msgstr "Testowy e-mail"
+
+#: src/Settings/Phpmailer.php:95
+msgid "This is a test message."
+msgstr "To jest wiadomość testowa."
+
+#: src/Settings/Security.php:576
+msgid "You are not currently logged in."
+msgstr ""
+
+#: src/Tools/Categories.php:28
+#, php-format
+msgid ""
+"Validation failed. The minimum number of selected categories in section %s "
+"is %d."
+msgstr ""
+"Walidacja nie powiodła się. Minimalna ilość wybranych kategorii z sekcji %s "
+"wynosi: %d."
+
+#: src/Tools/Categories.php:29
+#, php-format
+msgid ""
+"Validation failed. The maximum number of selected categories in section %s "
+"is %d."
+msgstr ""
+"Walidacja nie powiodła się. Maksymalna ilość wybranych kategorii z sekcji %s "
+"wynosi: %d."
+
+#: src/Tools/Cleaner.php:77
+msgid "Site management"
+msgstr "Zarządzanie stroną"
+
+#: src/Tools/Cleaner.php:106
+#, php-format
+msgid "Clear autodrafts (%d)"
+msgstr "Wyczyść automatyczne szkice (%d)"
+
+#: src/Tools/Cleaner.php:112
+#, php-format
+msgid "Clear post revisions (%d)"
+msgstr "Wyczyść rewizje postów (%d)"
+
+#: src/Tools/Stats.php:104
+msgid "Visit statistics"
+msgstr "Statystyki odwiedzin"
+
+#: src/Tools/Stats.php:125
+msgid "Daily"
+msgstr "Dzienne"
+
+#: src/Tools/Stats.php:126
+msgid "Monthly"
+msgstr "Miesięczne"
+
+#: src/Tools/Stats.php:127
+msgid "Yearly"
+msgstr "Roczne"
+
+#: src/Tools/Stats.php:145
+msgid "Users"
+msgstr "Użytkowników"
+
+#: src/Tools/Stats.php:146
+msgid "Views"
+msgstr "Odsłon"
+
+#: src/Translate/Js.php:19
+msgid "Expand"
+msgstr "Rozwiń"
+
+#: src/Translate/Js.php:20
+msgid ""
+"Are you sure you want to change language of this page? If you want to only "
+"edit translation of current page for another language, go to post archive "
+"and choose variant in different language there."
+msgstr ""
+"Czy na pewno chcesz zmienić język tej strony? Jeśli chcesz edytować "
+"tłumaczenie aktualnej strony w innym języku, przejdź do archiwum postów i "
+"wybierz wariant w innym języku."
+
+#: src/Translate/Optionspages.php:62
+msgid ""
+"Remember that settings saved on this page apply only to currently selected "
+"language. Change it using switch on top bar to configure settings for other "
+"languages."
+msgstr ""
+"Pamiętaj, że ustawienia zapisane na tej stronie dotyczą tylko aktualnie "
+"wybranego języka. Zmień go przełącznikiem na górnej belce, aby skonfigurować "
+"ustawienia dla pozostałych języków."

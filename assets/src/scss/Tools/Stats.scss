@@ -1,0 +1,51 @@
+.wpfStatsBox {
+
+	&__buttons {
+		font-size: 0;
+		margin: -15px;
+	}
+
+	&__buttons {
+
+		.button {
+			margin: 15px;
+		}
+	}
+
+	&__tables {
+		margin-top: 30px;
+	}
+
+	&__table {
+		display: none;
+
+		&--active {
+			display: block;
+		}
+	}
+
+	&__header {
+		background-color: rgba(0, 0, 0, 0.05);
+		font-weight: bold;
+	}
+
+	&__row {
+		overflow: hidden;
+	}
+
+	&__cell {
+		float: left;
+		width: 33.33333%;
+		padding: 10px;
+		box-sizing: border-box;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+
+		&:nth-child(n+2) {
+			border-left: 0;
+		}
+	}
+
+	&__list &__cell {
+		border-top: 0;
+	}
+}
