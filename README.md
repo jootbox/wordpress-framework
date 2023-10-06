@@ -103,36 +103,6 @@ Plik **composer.json** należy umieścić w głównym katalogu motywu.
 
 W pliku `.gitignore` znajdującym się w głównym katalogu projektu należy dodać linię wykluczającą katalog **/vendor**: `**/themes/**/vendor/`.
 
-```
-{
-  "name": "wordpress-starter-theme",
-  "description": "WordPress Starter Theme",
-  "authors": [
-    {
-      "name": "Jootbox",
-      "email": "hello@jootbox.eu",
-      "homepage": "https://jootbox.eu/",
-      "role": "Web Developer"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "git@gitlab.com:jootbox/wordpress-framework.git"
-    }
-  ],
-  "config": {
-    "gitlab-token": {
-      "gitlab.com": "xxxxxxxxxxxxxxxxxxxx"
-    }
-  },
-  "require": {
-    "jootbox/wordpress-framework": "1.5.*"
-  },
-  "prefer-stable": true
-}
-```
-
 Po dodaniu tego pliku należy otworzyć konsolę w katalogu motywu oraz uruchomić polecenie `composer install`.
 
 &nbsp;
