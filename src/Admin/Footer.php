@@ -16,8 +16,6 @@ class Footer {
 		echo $text . sprintf(
 				__( '%sThis site is built using %sWordPress Framework%s (v%s).', 'wpf' ),
 				'<br>',
-				'<a href="https://framework.gbiorczyk.pl" target="_blank">',
-				'</a>',
 				WPF_VERSION
 			);
 	}

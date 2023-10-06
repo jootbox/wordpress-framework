@@ -1,11 +1,10 @@
 <?php
 /**
  * @package   WordPress Framework
- * @author    Mateusz Gbiorczyk
+ * @author    Jootbox
  * @license   All rights reserved
- * @copyright 2018-2021 Mateusz Gbiorczyk
- * @link      https://framework.gbiorczyk.pl/
- * @link      https://gbiorczyk.pl/
+ * @copyright 2018-2023 Jootbox
+ * @link      https://jootbox.eu/
  */
 
 namespace Framework;

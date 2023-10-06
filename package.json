@@ -3,9 +3,9 @@
 	"description": "WordPress Framework Assets",
 	"license": "All rights reserved",
 	"author": {
-		"name": "Mateusz Gbiorczyk",
-		"email": "mateusz@gbiorczyk.pl",
-		"url": "https://gbiorczyk.pl/"
+		"name": "Jootbox",
+		"email": "hello@jootbox.eu",
+		"url": "https://jootbox.eu/"
 	},
 	"browserslist": [
 		"chrome 80",

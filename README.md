@@ -109,16 +109,16 @@ W pliku `.gitignore` znajdującym się w głównym katalogu projektu należy dod
   "description": "WordPress Starter Theme",
   "authors": [
     {
-      "name": "Mateusz Gbiorczyk",
-      "email": "mateusz@gbiorczyk.pl",
-      "homepage": "https://gbiorczyk.pl/",
+      "name": "Jootbox",
+      "email": "hello@jootbox.eu",
+      "homepage": "https://jootbox.eu/",
       "role": "Web Developer"
     }
   ],
   "repositories": [
     {
       "type": "vcs",
-      "url": "git@gitlab.com:gbiorczyk/wordpress-framework.git"
+      "url": "git@gitlab.com:jootbox/wordpress-framework.git"
     }
   ],
   "config": {
@@ -127,7 +127,7 @@ W pliku `.gitignore` znajdującym się w głównym katalogu projektu należy dod
     }
   },
   "require": {
-    "gbiorczyk/wordpress-framework": "1.5.*"
+    "jootbox/wordpress-framework": "1.5.*"
   },
   "prefer-stable": true
 }
@@ -138,7 +138,7 @@ Po dodaniu tego pliku należy otworzyć konsolę w katalogu motywu oraz uruchomi
 &nbsp;
 
 > Repozytorium przechowujące paczkę jest prywatne - **jego pobieranie jest możliwe jedynie posiadając prawidłowy token w pliku composer.json**.
-> Token można uzyskać od [autora Frameworka](mailto:mateusz@gbiorczyk.pl). Pamiętaj, że korzystanie z Frameworka bez posiadania zgody autora, zgodnie z licencją na jakiej jest on dystrybuowany, jest zabronione.
+> Token można uzyskać od [autora Frameworka](mailto:hello@jootbox.eu). Pamiętaj, że korzystanie z Frameworka bez posiadania zgody autora, zgodnie z licencją na jakiej jest on dystrybuowany, jest zabronione.
 
 &nbsp;
 
@@ -161,8 +161,7 @@ Istnieje możliwość aktualizowania Frameworka do nowszej wersji. Aby tego doko
 
   /* ---
     Name: WordPress Framework
-    Author: Mateusz Gbiorczyk
-    Docs: https://framework.gbiorczyk.pl/
+    Author: Jootbox
     License: All rights reserved
   --- */
 
@@ -1202,10 +1201,6 @@ function example_callback($paths)
 }
 ```
 
-### Dodatkowe informacje
-
-* https://slides.com/mateusz-gbiorczyk/wordpress-bezpieczenstwo/
-* https://in.crafton.pl/index.php/212-bezpieczenstwo-w-wordpressie-mateusz-gbiorczyk-10032017/
 
 [▲ Spis treści](#spis-treści)
 
@@ -2634,4 +2629,4 @@ Lista wszystkich dostępnych filtrów _(argument `$content` zawiera treść wkle
 
 &nbsp;
 
-> © 2018-2021 [Mateusz Gbiorczyk](mailto:mateusz@gbiorczyk.pl). `All rights reserved.`
+> © 2018-2023 [Jootbox](mailto:hello@jootbox.eu). `All rights reserved.`

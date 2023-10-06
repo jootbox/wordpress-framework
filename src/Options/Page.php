@@ -53,7 +53,7 @@ class Page {
 		$submenu['wpf-seo-share'][] = [
 			__( 'Docs', 'wpf' ),
 			'manage_options',
-			'https://framework.gbiorczyk.pl',
+			'https://jootbox.eu',
 		];
 	}
 }

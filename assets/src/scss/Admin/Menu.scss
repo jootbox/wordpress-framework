@@ -1,30 +1,30 @@
-#adminmenu {
-
-	.wp-submenu {
-
-		li {
-
-			a[href="https://framework.gbiorczyk.pl"] {
-				display: inline-block;
-				font-weight: 700;
-				font-size: 12px;
-				text-transform: uppercase;
-				letter-spacing: .5px;
-				white-space: nowrap;
-
-				&:before {
-					content: "\f120";
-					float: left;
-					display: inline-block;
-					width: 18px;
-					height: 18px;
-					margin-right: 10px;
-					font-family: dashicons;
-					font-weight: 400;
-					font-size: 18px;
-					line-height: 1;
-				}
-			}
-		}
-	}
-}
+//#adminmenu {
+//
+//	.wp-submenu {
+//
+//		li {
+//
+//			a[href="https://framework.gbiorczyk.pl"] {
+//				display: inline-block;
+//				font-weight: 700;
+//				font-size: 12px;
+//				text-transform: uppercase;
+//				letter-spacing: .5px;
+//				white-space: nowrap;
+//
+//				&:before {
+//					content: "\f120";
+//					float: left;
+//					display: inline-block;
+//					width: 18px;
+//					height: 18px;
+//					margin-right: 10px;
+//					font-family: dashicons;
+//					font-weight: 400;
+//					font-size: 18px;
+//					line-height: 1;
+//				}
+//			}
+//		}
+//	}
+//}

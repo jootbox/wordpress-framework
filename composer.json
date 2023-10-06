@@ -1,13 +1,13 @@
 {
-	"name": "gbiorczyk/wordpress-framework",
+	"name": "jootbox/wordpress-framework",
 	"description": "WordPress Framework",
 	"version": "1.7.3",
 	"license": "All rights reserved",
 	"authors": [
 		{
-			"name": "Mateusz Gbiorczyk",
-			"email": "mateusz@gbiorczyk.pl",
-			"homepage": "https://gbiorczyk.pl/"
+			"name": "Jootbox",
+			"email": "hello@jootbox.eu",
+			"homepage": "https://jootbox.eu/"
 		}
 	],
 	"autoload": {
