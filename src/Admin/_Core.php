@@ -3,6 +3,7 @@
 namespace Framework\Admin;
 
 class _Core {
+	private $menu;
 
 	public function __construct() {
 		new Assets();

@@ -11,6 +11,29 @@ namespace Framework;
 
 class Framework {
 
+	public $acf;
+	public $admin;
+	public $cache;
+	public $duplicator;
+	public $forms;
+	public $helpers;
+	public $integration;
+	public $loader;
+	public $manage;
+	public $options;
+	public $polylang;
+	public $posttype;
+	public $redirects;
+	public $roles;
+	public $seo;
+	public $settings;
+	public $share;
+	public $site;
+	public $sitemap;
+	public $taxonomy;
+	public $tools;
+	public $translate;
+
 	public function __construct() {
 		if ( ! $this->frameworkConfig() ) {
 			exit();

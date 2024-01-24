@@ -5,7 +5,7 @@ namespace Framework\Admin;
 class Footer {
 
 	public function __construct() {
-		add_filter( 'admin_footer_text', [ $this, 'changeFooterText' ] );
+//		add_filter( 'admin_footer_text', [ $this, 'changeFooterText' ] );
 	}
 
 	/* ---

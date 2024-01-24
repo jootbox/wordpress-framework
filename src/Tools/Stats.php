@@ -3,6 +3,7 @@
 namespace Framework\Tools;
 
 class Stats {
+	private $config;
 	/* ---
 	  Actions
 	--- */
