@@ -3,6 +3,7 @@
 namespace Framework\Polylang\Posttype;
 
 class Rewrites {
+	private $list;
 
 	public function __construct() {
 		add_filter( 'init', [ $this, 'getPostTypes' ] );
@@ -25,23 +26,23 @@ class Rewrites {
 	  Rewrite rules
 	--- */
 
-	public function generateRewriteRules( $rewriteObject ) {
-		if ( ! $this->list ) {
-			return;
+	public function generateRewriteRules($rewriteObject): array {
+		if (!$this->list) {
+			return [];
 		}
 
 		$list = [];
-		foreach ( $this->list as $postType => $data ) {
-			foreach ( $data['translations'] as $lang => $slug ) {
-				if ( $data['has_archive'] ) {
-					$list["${lang}/${slug}/page/([0-9]{1,})/?$"] = "index.php?post_type=${postType}&paged=\$matches[1]";
-					$list["${slug}/page/([0-9]{1,})/?$"]         = "index.php?post_type=${postType}&paged=\$matches[1]";
-					$list["${lang}/${slug}/?$"]                  = "index.php?post_type=${postType}";
-					$list["${slug}/?$"]                          = "index.php?post_type=${postType}";
+		foreach ($this->list as $postType => $data) {
+			foreach ($data['translations'] as $lang => $slug) {
+				if ($data['has_archive']) {
+					$list["{$lang}/{$slug}/page/([0-9]{1,})/?$"] = "index.php?post_type={$postType}&paged=\$matches[1]";
+					$list["{$slug}/page/([0-9]{1,})/?$"]         = "index.php?post_type={$postType}&paged=\$matches[1]";
+					$list["{$lang}/{$slug}/?$"]                  = "index.php?post_type={$postType}";
+					$list["{$slug}/?$"]                          = "index.php?post_type={$postType}";
 				}
 
-				$list["${lang}/${slug}(/([^/]+))+/?$"] = "index.php?post_type=${postType}&name=\$matches[1]";
-				$list["${slug}(/([^/]+))+/?$"]         = "index.php?post_type=${postType}&name=\$matches[1]";
+				$list["{$lang}/{$slug}(/([^/]+))+/?$"] = "index.php?post_type={$postType}&name=\$matches[1]";
+				$list["{$slug}(/([^/]+))+/?$"]         = "index.php?post_type={$postType}&name=\$matches[1]";
 			}
 		}
 
