@@ -32,11 +32,11 @@ class Rewrites {
 
 		$list = [];
 		foreach ( $this->list as $taxonomy => $translations ) {
-			foreach ( $translations as $lang => $slug ) {
-				$list["${lang}/${slug}(/([^/]+))+/page/([0-9]{1,})/?$"] = "index.php?${taxonomy}=\$matches[1]&paged=\$matches[2]";
-				$list["${slug}(/([^/]+))+/page/([0-9]{1,})/?$"]         = "index.php?${taxonomy}=\$matches[1]&paged=\$matches[2]";
-				$list["${lang}/${slug}(/([^/]+))+/?$"]                  = "index.php?${taxonomy}=\$matches[1]";
-				$list["${slug}(/([^/]+))+/?$"]                          = "index.php?${taxonomy}=\$matches[1]";
+			foreach ($translations as $lang => $slug) {
+				$list["$lang/$slug(/([^/]+))+/page/([0-9]{1,})/?$"] = "index.php?{$taxonomy}=\$matches[1]&paged=\$matches[2]";
+				$list["$slug(/([^/]+))+/page/([0-9]{1,})/?$"]         = "index.php?{$taxonomy}=\$matches[1]&paged=\$matches[2]";
+				$list["$lang/$slug(/([^/]+))+/?$"]                    = "index.php?{$taxonomy}=\$matches[1]";
+				$list["$slug(/([^/]+))+/?$"]                            = "index.php?{$taxonomy}=\$matches[1]";
 			}
 		}
 

@@ -4,6 +4,7 @@ namespace Framework\Tools;
 
 class Stats {
 	private $config;
+	private $list;
 	/* ---
 	  Actions
 	--- */

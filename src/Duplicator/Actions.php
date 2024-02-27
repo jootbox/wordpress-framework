@@ -39,8 +39,18 @@ class Actions {
 			$list = [ $this->formsPostType ];
 		}
 
+		if ($postType === 'page') {
+			$postType = 'pages';
+		}
+
+		if ($postType === 'post') {
+			$postType = 'posts';
+		}
+
+		$list[] = 'pages';
+		$list[] = 'posts';
 		return ( in_array( $postType, $list )
-			&& ( current_user_can( 'administrator' ) || current_user_can( 'create_' . $postType ) ) );
+			&& ( current_user_can( 'administrator' ) || current_user_can( 'create_' . $postType  )  ) );
 	}
 
 	private function getDuplicateLink( $postId ) {
