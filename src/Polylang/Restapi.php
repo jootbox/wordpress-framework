@@ -36,6 +36,8 @@ class Restapi {
 
 	public function saveMofile( $mofile, $domain ) {
 		$this->mofile = $mofile;
+
+		return $this->mofile;
 	}
 
 	public function restoreMofile( $mofile, $domain ) {

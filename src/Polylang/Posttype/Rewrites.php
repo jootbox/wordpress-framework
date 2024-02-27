@@ -35,14 +35,14 @@ class Rewrites {
 		foreach ($this->list as $postType => $data) {
 			foreach ($data['translations'] as $lang => $slug) {
 				if ($data['has_archive']) {
-					$list["{$lang}/{$slug}/page/([0-9]{1,})/?$"] = "index.php?post_type={$postType}&paged=\$matches[1]";
-					$list["{$slug}/page/([0-9]{1,})/?$"]         = "index.php?post_type={$postType}&paged=\$matches[1]";
-					$list["{$lang}/{$slug}/?$"]                  = "index.php?post_type={$postType}";
-					$list["{$slug}/?$"]                          = "index.php?post_type={$postType}";
+					$list["$lang/$slug/page/([0-9]{1,})/?$"] = "index.php?post_type=$postType&paged=\$matches[1]";
+					$list["$slug/page/([0-9]{1,})/?$"]         = "index.php?post_type=$postType&paged=\$matches[1]";
+					$list["$lang/$slug/?$"]                  = "index.php?post_type=$postType";
+					$list["$slug/?$"]                          = "index.php?post_type=$postType";
 				}
 
-				$list["{$lang}/{$slug}(/([^/]+))+/?$"] = "index.php?post_type={$postType}&name=\$matches[1]";
-				$list["{$slug}(/([^/]+))+/?$"]         = "index.php?post_type={$postType}&name=\$matches[1]";
+				$list["$lang/$slug(/([^/]+))+/?$"] = "index.php?post_type=$postType&name=\$matches[1]";
+				$list["$slug(/([^/]+))+/?$"]         = "index.php?post_type=$postType&name=\$matches[1]";
 			}
 		}
 
@@ -73,7 +73,7 @@ class Rewrites {
 		$object = get_post_type_object( $postType );
 		$slug   = str_replace( '/', '\/', $object->rewrite['slug'] );
 		return preg_replace(
-			"/\/({$slug})\//",
+			"/\/($slug)\//",
 			"/{$this->list[$postType]['translations'][$lang]}/",
 			$link,
 			1 );
