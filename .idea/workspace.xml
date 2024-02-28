@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="07b16cd2-adea-4f25-8b6e-58bc0d10736f" name="Changes" comment="bump version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Duplicator/Actions.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Duplicator/Actions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Polylang/Posttype/Rewrites.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polylang/Posttype/Rewrites.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Polylang/Restapi.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polylang/Restapi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Polylang/Taxonomy/Rewrites.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polylang/Taxonomy/Rewrites.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tools/Stats.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tools/Stats.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +74,7 @@
       <workItem from="1708536759394" duration="1211000" />
       <workItem from="1708932898911" duration="582000" />
       <workItem from="1709020643795" duration="605000" />
+      <workItem from="1709034083778" duration="615000" />
     </task>
     <task id="LOCAL-00001" summary="changes framework">
       <created>1696593515555</created>
