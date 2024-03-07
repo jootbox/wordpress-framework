@@ -45,7 +45,7 @@ class Duplicate {
 			'comment_status' => $post->comment_status,
 			'ping_status'    => $post->ping_status,
 			'post_author'    => $user->ID,
-			'post_content'   => $post->post_content,
+			'post_content'   => addslashes($post->post_content),
 			'post_excerpt'   => $post->post_excerpt,
 			'post_name'      => '',
 			'post_parent'    => $post->post_parent,
