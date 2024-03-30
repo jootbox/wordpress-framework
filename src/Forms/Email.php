@@ -111,7 +111,7 @@ class Email {
 		add_filter( 'wp_mail_content_type', [ $this, 'setHtmlContentType' ] );
 		$response = wp_mail(
 			$this->data['to'],
-			$this->data['subject'],
+			html_entity_decode($this->data['subject'], ENT_QUOTES, 'UTF-8'),
 			$this->data['message'],
 			$this->data['headers'],
 			$this->data['attachments']
