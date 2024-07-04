@@ -32,9 +32,8 @@ class Template {
 	}
 
 	public function archiveTemplate( $template, $type, $templates ) {
-		$filename = basename( $templates[0], '.php' );
+		$filename = basename( $templates[ count( $templates ) - 2 ] ?? '', '.php' );
 		$slug     = str_replace( 'archive-', '', $filename );
-
 		$path = sprintf(
 			'%s/templates/%s/archive.php',
 			get_template_directory(),
@@ -47,7 +46,7 @@ class Template {
 	}
 
 	public function taxonomyTemplate( $template, $type, $templates ) {
-		$filename = basename( $templates[1], '.php' );
+		$filename = basename( $templates[ count( $templates ) - 2 ] ?? '', '.php' );
 		$slug     = str_replace( 'taxonomy-', '', $filename );
 
 		$path = sprintf(
@@ -55,6 +54,8 @@ class Template {
 			get_template_directory(),
 			$slug
 		);
+
+
 		if ( ! file_exists( $path ) ) {
 			return $template;
 		}
