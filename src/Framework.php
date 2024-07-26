@@ -49,7 +49,10 @@ class Framework {
 		$this->loader      = new Loader\_Core();
 		$this->manage      = new Manage\_Core();
 		$this->options     = new Options\_Core();
-		$this->polylang    = new Polylang\_Core();
+		if (!defined('WPF_DISABLE_POLYLANG') ||
+			(defined('WPF_DISABLE_POLYLANG') && WPF_DISABLE_POLYLANG === false)) {
+			$this->polylang    = new Polylang\_Core();
+		}
 		$this->posttype    = new Posttype\_Core();
 		$this->redirects   = new Redirects\_Core();
 		$this->roles       = new Roles\_Core();
