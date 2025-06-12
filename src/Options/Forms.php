@@ -845,6 +845,7 @@ class Forms {
 								'image/gif'                                                                 => 'gif',
 								'image/jpg' 																=> 'jpg',
 								'image/jpeg' 																=> 'jpeg',
+								'image/heif'																=> 'heif',
 								'application/json'                                                          => 'json',
 								'video/mpeg'                                                                => 'mpeg',
 								'application/vnd.oasis.opendocument.presentation'                           => 'odp',
