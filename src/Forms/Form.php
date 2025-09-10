@@ -79,16 +79,19 @@ class Form {
 		return $output;
 	}
 
-	private function getFormHtml( $formId, $template ) {
-		$output = '<div id="wpf-contact-form-' . $formId . '" data-form-id="' . $formId . '" v-cloak>';
-		$output .= '<form class="vue-form" v-on:submit="onSubmit" :data-status="$data.status.type" ref="_form" novalidate>';
-		$output .= $template;
-		$output .= '</form>';
-		$output .= '</div>';
-		$output .= '<style>[v-cloak] { display: none !important; }</style>';
-
-		$output = apply_filters( 'wpf_filter_data',
-			'wpf_forms_form_html', $output, [ $formId ], $formId );
-		return $output;
+	private function getFormHtml($formId, $template) {
+	  $formTitle = get_the_title($formId);
+	  $formClass = 'form-' . strtolower(preg_replace('/[^a-zA-Z0-9]+/', '-', $formTitle));
+	
+	  $output = '<div id="wpf-contact-form-' . $formId . '" data-form-id="' . $formId . '" v-cloak>';
+	  $output .= '<form class="vue-form ' . $formClass . '" v-on:submit="onSubmit" :data-status="$data.status.type" ref="_form" novalidate>';
+	  $output .= $template;
+	  $output .= '</form>';
+	  $output .= '</div>';
+	  $output .= '<style>[v-cloak] { display: none !important; }</style>';
+	
+	  $output = apply_filters('wpf_filter_data',
+	    'wpf_forms_form_html', $output, [$formId], $formId);
+	  return $output;
 	}
 }
