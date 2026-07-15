@@ -3,6 +3,13 @@
 namespace Framework\Forms;
 
 class Fields {
+	/**
+	 * Dane pól formularza.
+	 *
+	 * @var array<string, mixed>
+	 */
+	protected array $fields = [];
+	
 	/* ---
 	  Functions
 	--- */
