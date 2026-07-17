@@ -42,7 +42,10 @@ class Framework {
 		$this->acf         = new Acf\_Core();
 		$this->admin       = new Admin\_Core();
 		$this->cache       = new Cache\_Core();
-		$this->duplicator  = new Duplicator\_Core();
+		if (!defined('WPF_DISABLE_DUPLICATOR') ||
+			(defined('WPF_DISABLE_DUPLICATOR') && WPF_DISABLE_DUPLICATOR === false)) {
+			$this->duplicator = new Duplicator\_Core();
+		}
 		$this->forms       = new Forms\_Core();
 		$this->helpers     = new Helpers\_Core();
 		$this->integration = new Integration\_Core();
