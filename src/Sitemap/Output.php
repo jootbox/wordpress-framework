@@ -89,13 +89,23 @@ class Output {
 		return $content;
 	}
 
+	private function getActiveLanguages() {
+		if ( function_exists( 'pll_languages_list' ) ) {
+			return pll_languages_list( [
+				'fields' => 'slug',
+			] );
+		}
+
+		return [];
+	}
+
 	private function printPosts( $slug, $page ) {
 		$content = '';
 		$items   = get_posts( [
 			'post_type'      => $slug,
 			'posts_per_page' => 250,
 			'offset'         => ( $page * 250 ),
-			'lang'           => '',
+			'lang'           => $this->getActiveLanguages(),
 			'orderby'        => 'date',
 			'order'          => 'DESC',
 			'fields'         => 'ids',
@@ -122,7 +132,7 @@ class Output {
 			'taxonomy' => $slug,
 			'number'   => 250,
 			'offset'   => ( $page * 250 ),
-			'lang'     => '',
+			'lang' => $this->getActiveLanguages(),
 			'orderby'  => 'id',
 			'order'    => 'DESC',
 		] );
@@ -146,7 +156,7 @@ class Output {
 		$args = [
 			'posts_per_page' => 1,
 			'post_type'      => 'any',
-			'lang'           => '',
+			'lang' => $this->getActiveLanguages(),
 			'orderby'        => 'modified',
 			'order'          => 'DESC',
 		];
